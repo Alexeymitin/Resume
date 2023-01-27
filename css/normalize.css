@@ -22,6 +22,8 @@
     /* Отступ слева в браузере IE и Opera */
     padding-left: 0;
     /* Отступ слева в браузере Firefox, Safari, Chrome */
+    margin: 0;
+
   }
   /* Sections
      ========================================================================== */
@@ -32,6 +34,10 @@
   
   body {
     margin: 0;
+  }
+
+  a {
+    text-decoration: none;
   }
   
   /**

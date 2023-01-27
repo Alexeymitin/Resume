@@ -1,0 +1,129 @@
+body {
+	font-family: Outfit, Arial, Helvetica, sans-serif;
+}
+
+span, ul, .section_education a {
+	font-size: 16px;
+	color: #666666;
+	font-weight: 400;
+}
+
+h2 {
+	font-size: 24px;
+	padding-bottom: 5px;
+	font-weight: 700;
+}
+
+
+/* a {
+	color: black;
+	font-size: 16px;
+} */
+
+
+.name {
+	height: 256px;
+	max-width: 595px;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: flex-end;
+	margin: auto;
+	background: linear-gradient(to bottom, #EEEEF4 45%, white 10%)
+}
+
+.name__photo {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	/* border: solid 1px; */
+	background: url(/img/photo2.png) center/cover no-repeat;
+}
+
+.name__first {
+	padding-top: 16px;
+}
+
+.name__prof {
+	padding-bottom: 24px;
+}
+
+.contacts a {
+	color: black;
+	font-size: 16px;
+	padding-top: 3px;
+}
+
+.contacts {
+	max-width: 595px;
+	height: 39px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: auto;
+	box-sizing: border-box;
+	border-top: solid #DDDDDD;
+	border-bottom: solid #DDDDDD;
+}
+
+
+.contacts > div {
+  width: 200px;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+.contacts > div > img {
+	margin-right: 5px;
+}
+
+.contacts__email {
+	border-right: solid #DDDDDD;
+	border-left: solid #DDDDDD;
+}
+
+.main {
+	width: 595px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.main > * {
+	flex-basis: 100%;
+}
+
+.section_skills {
+	border-right: solid #DDDDDD;
+	padding-right: 20px;
+}
+
+.section_education {
+	padding-left: 20px;
+}
+
+.skills {
+	padding-top: 20px;
+	
+}
+
+.languages {
+	padding-top: 20px;
+}
+
+.links {
+	padding-top: 20px;
+}
+
+.links__social {
+	padding-bottom: 5px;
+	display: flex;
+	align-items: center;
+}
+
+.links__social > img, svg {
+	margin-right: 5px;
+}
